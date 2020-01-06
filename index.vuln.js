@@ -6,9 +6,6 @@ const port = 3000
 
 app.get('/', (req, res) => res.send('Hello World!'))
 
-app.get('/vuln', Vulnerability);
-app.get('/vuln2', Vulnerability2);
-
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
@@ -30,3 +27,6 @@ const Vulnerability2 = (req, res) => {
     res.send(respond);
 }
 
+
+app.get('/vuln', Vulnerability);
+app.get('/vuln2', Vulnerability2);
