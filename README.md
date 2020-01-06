@@ -2,7 +2,7 @@
 
 ## there is 2 vulnerabilities
 
-1. reflected xss in `index.vuln.js` line `16`
+1. reflected xss in `index.vuln.js` line `21`
 
 ```js
 const Vulnerability = (req, res) => {
@@ -14,7 +14,7 @@ const Vulnerability = (req, res) => {
 }
 ```
 
-2. reflected xss in `index.vuln.js` line `25`
+2. reflected xss in `index.vuln.js` line `30`
 
 ```js
 const Vulnerability2 = (req, res) => {
